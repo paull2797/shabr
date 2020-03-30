@@ -49,8 +49,21 @@ font-family: titan one;
     background-color: #ffcba4;
     padding:10px;
     font-family:titan one;
+    font-weight:bold;
 }
 
 #info{
-    padding-top:5%;
+    padding:5%;
+    background-color:powderblue;
+}
+
+#gallery{
+font-size:24px
+}
+
+#testimonials{
+padding-top:24px;
+padding-bottom:24px;
+background-color: powderblue;
+
 }
