@@ -25,6 +25,11 @@ font-family: titan one;
     margin: 0 auto;
 }
 
+img{
+max-width:100%;
+height:auto;
+}
+
 .center{
     display:block;
     margin-left:auto;
@@ -58,12 +63,25 @@ font-family: titan one;
 }
 
 #gallery{
-font-size:24px
+font-size:24px;
+margin-top:16px;
+margin-bottom:16px;
 }
+
 
 #testimonials{
 padding-top:24px;
 padding-bottom:24px;
 background-color: powderblue;
 
+}
+
+@media (max-height:576px){
+    p{
+        font-size:10px;
+    }
+    
+    a{
+        font-size:16vmin;
+    }
 }
