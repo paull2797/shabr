@@ -44,9 +44,12 @@ img{
     background-repeat: no-repeat;
     background-size: auto;
     text-align: center;
-    color: black;
+    color: Indigo;
     line-height:3;
+}
 
+#title h1{
+padding-top: 148px;
 }
 
 #home{
