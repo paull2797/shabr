@@ -74,6 +74,7 @@ img{
     padding-top:24px;
     padding-bottom:24px;
     background-color: powderblue;
+    font-weight: bold;
 }
 
 #testimonials p{
@@ -88,11 +89,14 @@ img{
 }
 
 @media (max-height:576px){
-    p{
-        font-size:10px;
+    p a{
+        font-size:24px;
     }
-    
-    a{
-        font-size:16vmin;
+
+}
+
+@media (min-width:992px){
+    p a {
+        font-size:48px;
     }
 }
